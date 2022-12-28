@@ -88,6 +88,7 @@ private:
 public:
     int houseRobber(int n,vector<int> &arr)
     {
+        if(n == 1) return arr[0];
         vector<int> temp1,temp2;
         for(int i = 0;i<n;i++)
         {
