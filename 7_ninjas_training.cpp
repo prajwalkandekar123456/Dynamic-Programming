@@ -1,12 +1,11 @@
 // Problem
 /*
-Ninja is planing this 'N' days-long training schedule. Each day, he can perform any one of these three activities. (Running. Fighting Practice or Learning New Moves). Each activity has some merit points on each day. As Ninja has to improve all his skills, he can't do the same activity in two consecutive days. Can you help Ninja find out the maximum merit points Ninja can earn?
+A Ninja has an ‘N’ Day training schedule. He has to perform one of these three activities (Running, Fighting Practice, or Learning New Moves) each day. There are merit points associated with performing an activity each day. The same activity can’t be performed on two consecutive days. We need to find the maximum merit points the ninja can attain in N Days.
 
-For Example
+We are given a 2D Array POINTS of size ‘N*3’ which tells us the merit point of specific activity on that particular day. Our task is to calculate the maximum number of merit points that the ninja can earn.
 
-You are given a 2D array of size N*3 'POINTS' with the points corresponding to each day and activity. Your task is to calculate the maximum number of merit points that Ninja can eam.
+Example:
 
-If the given POINTS array is [[1,2,5], [3,1,11,13,3,31 1, the answer will be 11 as 5+ 3 + 3.
 */
 
 #include<bits/stdc++.h>
@@ -15,7 +14,7 @@ using namespace std;
 class Solution{
 private:
     //Recursion
-    //Time Complexity : O(N*4*3)
+    //Time Complexity : O(N*4*3) + O(N)
     // Space Complexity : O(N) + O(N*4)
     int recc(int day,int last,vector<vector<int>> &points)
     {
