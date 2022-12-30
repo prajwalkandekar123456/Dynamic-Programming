@@ -66,7 +66,9 @@ private:
         return dp[n-1][m-1];
     }
 */
-
+    // Optimization
+    // Time COmplexity : O(N*M)
+    // Space Complexity : O(N)
     int opti(int n,int m,vector<vector<int>> &grid)
     {
         vector<int> prev(m,0);
