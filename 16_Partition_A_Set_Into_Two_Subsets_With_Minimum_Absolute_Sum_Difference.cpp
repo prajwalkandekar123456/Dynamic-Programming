@@ -11,7 +11,7 @@ using namespace std;
 class Solution{
 private:
     // Tabulation
-    // Time Complexity : O(N*K) + O(K)
+    // Time Complexity : O(N*K) + O(K) + O(K)
     // Space Complexity : O(N*K)
     int tab(int n,int k,vector<int> &arr)
     {
