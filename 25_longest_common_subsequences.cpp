@@ -61,7 +61,7 @@ private:
     }
     // Optimozation
     // Time Complexity : O(N*M)
-    // Space Complexity : O(N+M)
+    // Space Complexity : O(M)
     int opti(int n,int m,string s1,string s2)
     {
         vector<int> prev(m+1,0),curr(m+1,0);
