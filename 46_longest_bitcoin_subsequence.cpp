@@ -23,6 +23,8 @@ Explanation: The bitonic sequence
 #include<bits/stdc++.h>
 using namespace std;
 
+// Time Complexity : O(N*N)
+// Space Complexity : O(N)
 class Solution{
 public:
     int longestBitonic(int n,vector<int> &arr)
