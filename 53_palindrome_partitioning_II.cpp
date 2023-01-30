@@ -56,8 +56,8 @@ private:
         return mini;
     }
     // Memoization
-    // Time Complexity : O(N*N)
-    // Space Complexity:O(N*N)+O(N)
+    // Time Complexity : O(N)+O(N)
+    // Space Complexity:O(N)+O(N)+O(N)
     int memo(int i,int n,string &s,vector<int> &dp)
     {
         if(i == n) return 0;
